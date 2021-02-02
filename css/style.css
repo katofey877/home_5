@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700&display=swap");
+/* ________________Обнуление_________________ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	font-family: "Lora";
+	padding: 20px 0px 0px 15px;
+}
+/* ___________блок header___________________________ */
+.header {
+}
+.block__title.header__title {
+	margin: 0px 0px 51px 0px;
+}
+
+ul.list {
+	display: inline-block;
+	margin: 0px 50px;
+}
+ul li {
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	color: #222831;
+	padding: 24px;
+}
+.bar {
+	width: 730px;
+	height: 450px;
+}
+/* ___________Main___________________________ */
+
+/* ___________блок 1___________________________ */
+.six__block {
+}
+.tree__block {
+	max-height: 320px;
+	margin: 0px 0px 30px 0px;
+}
+.tree__block.popravka {
+	margin: 0px 0px 76px 0px;
+}
+.block__title {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 128%;
+	color: #10375c;
+	margin: 60px 363px 60px 0px;
+	display: inline-block;
+}
+.block a {
+	font-family: "Lato";
+	display: inline-block;
+	line-height: 162%;
+	color: #ff5722;
+}
+
+.indus {
+	width: 350px;
+	height: 320px;
+}
+/*__________________*/
+
+.google {
+	display: inline-block;
+	width: 350px;
+	max-height: 320px;
+	padding: 32px;
+	margin: 0px 0px 0px 30px;
+}
+.subtitle {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 128%;
+	margin: 0px 0px 24px 0px;
+}
+.name2 {
+	font-size: 16px;
+	font-family: "Lato";
+	line-height: 162%;
+	color: #9a9a9a;
+	margin: 0px 0px 17px 0px;
+}
+p.name {
+	font-family: "Lato";
+	font-size: 18px;
+	line-height: 155%;
+	color: #10375c;
+}
+
+.portret {
+	width: 46px;
+	height: 46px;
+	margin: 0px 23px 0px 0px;
+}
+.portret__text {
+	display: inline-block;
+}
+/*__________________*/
+.notebook {
+	display: inline-block;
+	max-height: 320px;
+	max-width: 350px;
+	margin: 0px 0px 0px 30px;
+}
+.notebook.popravka2 {
+	margin: 0px 0px 0px 0px;
+}
+.tabel {
+	width: 350px;
+	height: 204px;
+}
+.meni__title {
+	font-size: 22px;
+	line-height: 128%;
+	color: #222831;
+	margin: 0px 0px 4px 0px;
+	padding: 16px 16px 0px 16px;
+}
+.notebook p {
+	font-family: "Lato";
+	line-height: 162%;
+	color: #9a9a9a;
+	padding: 0px 16px 16px 16px;
+}
+/*__________________*/
+
+/*__________________*/
+
+/* ___________footer ___________________________ */
+.footer {
+}
+.frispes {
+	display: inline-block;
+	width: 255px;
+	height: 235px;
+}
+.logo {
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 128%;
+	color: #0d2c4a;
+	margin: 0px 0px 16px 0px;
+}
+.frispes p {
+	font-family: "Lato";
+	line-height: 162%;
+	color: #9a9a9a;
+}
+.spaces {
+	display: inline-block;
+	margin: 0px 0px 0px 125px;
+}
+.spaces.spaces2 {
+	margin: 0px 0px 0px 68px;
+}
+.spaces.spaces3 {
+	margin: 0px 0px 0px 68px;
+}
+.spaces.spaces4 {
+	margin: 0px 0px 0px 68px;
+}
+.four {
+	display: inline-block;
+}
+
+.sub__title {
+	font-size: 20px;
+	font-family: "Lato";
+	line-height: 150%;
+	color: #0d2c4a;
+}
+.spaces p {
+	font-family: "Lato";
+	line-height: 162%;
+	color: #ff5722;
+}
